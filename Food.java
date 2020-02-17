@@ -6,4 +6,8 @@ public class Food {
         this.calories = calories;
         this.name = name;
     }
+
+    public String toString(){
+        return this.name + ": " + this.calories + " Cal; ";
+    }
 }

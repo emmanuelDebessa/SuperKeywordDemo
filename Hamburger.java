@@ -11,7 +11,7 @@ public class Hamburger extends Food {
     }
 
     public String toString(){
-        return this.name + ": " + this.calories + " Cal; " + " produced on: " + this.produced_date
+        return super.toString() + " produced on: " + this.produced_date
                 + " by: " + this.brand;
     }
 }
