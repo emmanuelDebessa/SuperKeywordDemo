@@ -10,6 +10,14 @@ public class Hamburger extends Food {
         this.brand = brand;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
+    public double getCalories(){
+        return this.calories;
+    }
+
     public String toString(){
         return super.toString() + " produced on: " + this.produced_date
                 + " by: " + this.brand;
